@@ -250,7 +250,6 @@ section {
 
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
   width: 68%;
   margin-left: 4rem;
   -webkit-transition: all .4s ease-in-out;
@@ -1173,6 +1172,12 @@ section {
     font-size: 2.5rem !important;
     text-align: center;
     padding-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .image {
+    height: 75%;
   }
 }
 
